@@ -1,0 +1,9 @@
+# 复制为 .dev.vars 并填入真实值（.dev.vars 已被 gitignore）
+# 本地开发用；线上用 `wrangler secret put` 设置同名变量
+
+# 能读取私有仓库 space-data 的 GitHub PAT（classic: 勾 repo；fine-grained: 该仓库 Contents: Read）
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxx
+
+# GitHub OAuth App 的凭证（本地回调填 http://localhost:8787/api/auth/callback）
+GITHUB_CLIENT_ID=Iv1.xxxxxxxx
+GITHUB_CLIENT_SECRET=xxxxxxxxxxxxxxxx

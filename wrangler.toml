@@ -1,0 +1,19 @@
+name = "space"
+main = "src/index.ts"
+compatibility_date = "2024-10-22"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[vars]
+DATA_REPO = "s3hq4y/space-data"
+DATA_BRANCH = "main"
+SITE_OWNER_GITHUB = "s3hq4y"
+SITE_TITLE = "空间"
+
+[[kv_namespaces]]
+binding = "SPACE_KV"
+id = "PLACEHOLDER"
