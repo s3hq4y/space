@@ -4,18 +4,28 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="noindex, nofollow" />
+<meta name="theme-color" content="#060608" />
 <title>空间</title>
 <link rel="stylesheet" href="/style.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11/styles/github.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11/styles/atom-one-dark.min.css" />
 </head>
 <body>
+<div class="noise"></div>
+<div class="glow"></div>
 <header class="topbar">
-  <a class="brand" href="/" data-link>空间</a>
+  <a class="brand" href="/" data-link>
+    <span class="brand-dot"></span>
+    <span class="brand-name">空间</span>
+  </a>
   <div class="spacer"></div>
-  <div id="viewer"></div>
+  <div class="viewer" id="viewer"></div>
 </header>
 <main id="app" class="container"></main>
+<footer class="footer">
+  <span>空间</span>
+  <span class="footer-sep">/</span>
+  <span>像 QQ 空间一样，只给你想给的人看</span>
+</footer>
 <script type="module" src="/app.js"></script>
 </body>
 </html>
